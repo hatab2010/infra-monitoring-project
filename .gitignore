@@ -1,0 +1,26 @@
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*~
+tmp/
+temp/
+
+# Артефакты сборки
+build/
+dist/
+out/
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.DS_Store
+.idea/
+.vscode/
